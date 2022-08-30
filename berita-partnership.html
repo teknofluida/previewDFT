@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" dir="">
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Berita | PT. DFT</title>
+  
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/svg/brands/dft-dark-half.svg">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+    <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
+
+    <!-- CSS Unify Template -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
+</head>
+
+<body>
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-shadow bg-white navbar-light navbar-absolute-top navbar-show-hide"
+          data-hs-header-options='{
+            "fixMoment": 0,
+            "fixEffect": "slide"
+          }'>
+    <div class="container">
+      <nav class="js-mega-menu navbar-nav-wrap">
+        <!-- Default Logo -->
+        <a class="navbar-brand" href="./index.html" aria-label="Unify">
+          <img class="navbar-brand-logo" src="./assets/svg/logos/dft-dark-full.svg" alt="Image Description">
+        </a>
+        <!-- End Default Logo -->
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-default">
+            <i class="bi-list"></i>
+          </span>
+          <span class="navbar-toggler-toggled">
+            <i class="bi-x"></i>
+          </span>
+        </button>
+        <!-- End Toggler -->
+      
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="navbar-absolute-top-scroller">
+            <ul class="navbar-nav nav-pills">
+              <!-- Beranda -->
+              <li class="nav-item">
+                <a class="nav-link " href="./index.html">Beranda</a>
+              </li>
+              <!-- End Beranda -->
+
+              <!-- Tentang Kami -->
+              <li class="nav-item">
+                <a class="nav-link " href="./tentang-kami.html">Tentang Kami</a>
+              </li>
+              <!-- End Tentang Kami -->
+
+              <!-- Produk -->
+              <li class="hs-has-mega-menu nav-item"
+                  data-hs-mega-menu-item-options='{
+                    "desktop": {
+                      "maxWidth": "20rem"
+                    }
+                  }'>
+                <a id="produkMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Produk</a>
+
+                <!-- Mega Menu -->
+                <div class="hs-mega-menu hs-position-right-fix dropdown-menu" aria-labelledby="produkMegaMenu" style="min-width: 15rem; right: auto;">
+
+                  <!-- Link -->
+                  <a class="navbar-dropdown-menu-media-link" href="./produk-lini.html" style="padding: 0.5rem 0.5rem;">
+                    <div class="d-flex">
+                      <div class="flex-shrink-0">
+                        <i class="bi-sort-alpha-down fs-2 text-dark"></i>
+                      </div>
+
+                      <div class="flex-grow-1 ms-3 my-2">
+                        <span class="navbar-dropdown-menu-media-title">Ragam Produk</span>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- End Link -->
+
+                  <div class="dropdown-divider"></div>
+
+                  <!-- Link -->
+                  <a class="navbar-dropdown-menu-media-link" href="./produk-aplikasi.html" style="padding: 0.5rem 0.5rem;">
+                    <div class="d-flex">
+                      <div class="flex-shrink-0">
+                        <i class="bi-app-indicator fs-2 text-dark"></i>
+                      </div>
+
+                      <div class="flex-grow-1 ms-3 my-2">
+                        <span class="navbar-dropdown-menu-media-title">Industri</span>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- End Link -->
+    
+                  <div class="dropdown-divider"></div>
+
+                  <!-- Link -->
+                  <a class="navbar-dropdown-menu-media-link" href="./produk-katalog.html" style="padding: 0.5rem 0.5rem;">
+                    <div class="d-flex">
+                      <div class="flex-shrink-0">
+                        <i class="bi-journal-album fs-2 text-dark"></i>
+                      </div>
+
+                      <div class="flex-grow-1 ms-3 my-2">
+                        <span class="navbar-dropdown-menu-media-title">Katalog</span>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- End Link -->
+
+                </div>
+                <!-- End Mega Menu -->
+              </li>
+              <!-- End Produk -->
+
+              <!-- Servis -->
+              <li class="nav-item">
+                <a class="nav-link " href="./servis.html">Servis</a>
+              </li>
+              <!-- End Servis -->
+
+              <!-- Berita -->
+              <li class="hs-has-mega-menu nav-item"
+                  data-hs-mega-menu-item-options='{
+                    "desktop": {
+                      "maxWidth": "20rem"
+                    }
+                  }'>
+                <a id="beritaMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle active" href="#" role="button" aria-expanded="false">Berita</a>
+
+                <!-- Mega Menu -->
+                <div class="hs-mega-menu hs-position-right-fix dropdown-menu" aria-labelledby="beritaMegaMenu" style="min-width: 15rem; right: auto;">
+
+                  <!-- Link -->
+                  <a class="navbar-dropdown-menu-media-link" href="./berita.html" style="padding: 0.5rem 0.5rem;">
+                    <div class="d-flex">
+                      <div class="flex-shrink-0">
+                        <i class="bi-newspaper fs-2 text-dark"></i>
+                      </div>
+
+                      <div class="flex-grow-1 ms-3 my-2">
+                        <span class="navbar-dropdown-menu-media-title">Berita</span>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- End Link -->
+
+                  <div class="dropdown-divider"></div>
+
+                  <!-- Link -->
+                  <a class="navbar-dropdown-menu-media-link" href="./artikel.html" style="padding: 0.5rem 0.5rem;">
+                    <div class="d-flex">
+                      <div class="flex-shrink-0">
+                        <i class="bi-bookmark-plus fs-2 text-dark"></i>
+                      </div>
+
+                      <div class="flex-grow-1 ms-3 my-2">
+                        <span class="navbar-dropdown-menu-media-title">Artikel</span>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- End Link -->
+
+                </div>
+                <!-- End Mega Menu -->
+              </li>
+              <!-- End Berita -->
+
+              <!-- Karir -->
+              <li class="nav-item">
+                <a class="nav-link " href="./karir.html">Karir</a>
+              </li>
+              <!-- End Karir -->
+
+              <!-- Kontak -->
+              <li class="nav-item">
+                <a class="nav-link " href="./kontak.html">Kontak</a>
+              </li>
+              <!-- End Kontak -->
+
+              <!-- Bahasa -->
+              <div class="col-sm-6 col-md-2">
+                <label class="form-label visually-hidden" for="language">Indonesia</label>
+                <select class="form-select form-select-lg" id="language" aria-label="Indonesia" style="padding: 0.75rem 1.5rem 0.75rem 1.8125rem;">
+                  <option selected>Indonesia</option>
+                  <option value="1">English</option>
+                </select>
+              </div>
+              <!-- End Bahasa -->
+            </ul>
+          </div>
+        </div>
+        <!-- End Collapse -->
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main class="pt-10" id="content" role="main">
+      
+    <!-- Title -->
+    <div class="">
+        <div class="container content-space-1">
+          <div class="row justify-content-lg-center">
+            <div class="col-lg-8">
+  
+              <div class="text-center">
+                  <h1 class="h2">Bermitra dengan Seko</h1>
+                  <p>21 Januari 2022 | DFT Editorial Team</p>
+              </div>
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+      </div>
+      <!-- End Title -->a
+
+     <!-- Features -->
+     <div class="container pb-10">
+        <div class="row justify-content-lg-between align-items-lg-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <img class="img-fluid rounded-3" src="assets/img/800x700/news-partnership-with-seko.png" alt="Image Description">
+          </div>
+          <!-- End Col -->
+  
+          <div class="col-lg-6 ps-5">
+            <div class="mb-5">
+              <p class="fs-3_5">
+                Seko adalah produsen pompa dosis terkenal dengan dukungan pelanggan lokal di lebih dari 120 negara, dengan manfaat tambahan berupa pengiriman barang yang cepat untuk memenuhi kebutuhan Anda. 
+                Dari sistem yang dirancang untuk memberikan kebersihan dan pembersihan permukaan hingga pengolahan air untuk konsumsi manusia, atau untuk digunakan dalam pengolahan air pendingin, kolam renang, dan dalam berbagai proses industri, SEKO memberikan solusi yang disesuaikan untuk memenuhi kebutuhan apa pun. 
+                <br>
+                Sejak tahun 2005, Dinamik Flow Teknologi telah menjadi Mitra Layanan Resmi Seko, menyediakan produk dan layanan berkualitas tinggi untuk semua pelanggan di Indonesia. 
+                Kami berkomitmen untuk memberikan yang terbaik bagi pelanggan kami sejak saat itu, dan mengadakan pameran untuk membiarkan mereka merasakan kualitas produk kami.
+                </p>
+            </div>
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+    </div>
+    <!-- End Features -->
+
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="bg-light">
+    <div class="container pt-5">
+
+      <div class="border-bottom border-dark-750">
+        <div class="row py-3">
+
+          <!-- PT DINAMIK FLOW TEKNOLOGI -->
+          <div class="col-6 col-sm-4 col-lg-4 mb-7 mb-lg-0">
+            <span class="text-cap text-primary">PT. Dinamik Flow Teknologi</span>
+            <p class="text-dark">Jl. Pangeran Jayakarta 141 <br>Blok 1C No. 1 <br>Jakarta - Indonesia 10730</p>
+            <span class="text-cap text-primary pt-3">Jam Operasional</span>
+            <p class="text-dark">Senin - Jumat : 09.00 - 17.00 <br> Sabtu - Minggu : Libur</p>
+          </div>
+          <!-- End PT DINAMIK FLOW TEKNOLOGI -->
+
+          <!-- Site Map -->
+          <div class="col-6 col-sm-4 col-lg-2 mb-7 mb-sm-0">
+            <span class="text-cap text-primary">Site Map</span>
+            <ul class="list-unstyled list-py-1 mb-5">
+              <li><a class="link link-dark link-dark-75 fs-4" href="./tentang-kami.html">Tentang Kami</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="./produk-lini.html">Ragam Produk</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="./produk-lini.html">Industri</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="./produk-lini.html">Katalog</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="./servis-html">Servis</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="./berita.html">Berita</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="./berita.html">Artikel</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="./karir.html">Karir</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="./kontak.html">Kontak</a></li>
+            </ul>
+          </div>
+          <!-- End Site Map -->
+
+          <!-- Lini Produk -->
+          <div class="col-6 col-sm-4 col-lg-3 mb-7 mb-sm-0">
+            <span class="text-cap text-primary">Ragam Produk</span>
+            <ul class="list-unstyled list-py-1 mb-5">
+              <li><a class="link link-dark link-dark-75 fs-4" href="#">Sistem Dosing & Kontroler</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="#">Pompa Industrial</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="#">Solusi Sealing</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="#">Blower & Mixer</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="#">Aksesoris Pompa</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="#">E-Motor</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="#">Filter & Sistem Filtrasi</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="#">Perawatan Oli & Bahan Bakar Biodiesel</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="#">Sistem Hidrolik & Lubrikasi, Servis, & Komponen</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="#">Selang, Pipa, Fitting & Aksesoris Hidrolik</a></li>
+              <li><a class="link link-dark link-dark-75 fs-4" href="#">Drive Shaft & Perangkat Mekanikal</a></li>
+            </ul>
+          </div>
+          <!-- End Lini Produk -->
+
+          <!-- Hubungi Kami-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <span class="text-cap text-primary">Hubungi Kami</span>
+
+            <!-- List -->
+            <ul class="list-unstyled list-py-1 mb-0">
+          
+              <li><a class="link link-dark link-dark-75" href="tel:+62-21-659 4026">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <i class="bi-telephone-fill"></i>
+                  </div>
+
+                  <div class="flex-grow-1 ms-2">
+                    <span class="fs-4">+62-21-659 4026</span>
+                  </div>
+                </div>
+              </a></li>
+
+              <li><a class="link link-dark link-dark-75" href="mailto:sales@dft.co.id">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <i class="bi-envelope-open-fill"></i>
+                  </div>
+
+                  <div class="flex-grow-1 ms-2">
+                    <span class="fs-4">sales@dft.co.id</span>
+                  </div>
+                </div>
+              </a></li>
+
+              <li><a class="link link-dark link-dark-75" href="#">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <i class="bi-linkedin"></i>
+                  </div>
+
+                  <div class="flex-grow-1 ms-2">
+                    <span class="fs-4">PT. Dinamik Flow Teknologi</span>
+                  </div>
+                </div>
+              </a></li>
+            
+              <li><a class="link link-dark link-dark-75" href="#">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <i class="bi-facebook"></i>
+                  </div>
+
+                  <div class="flex-grow-1 ms-2">
+                    <span class="fs-4">PT. Dinamik Flow Teknologi</span>
+                  </div>
+                </div>
+              </a></li>
+            
+              <li><a class="link link-dark link-dark-75" href="https://www.instagram.com/dflow.teknologi/">
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <i class="bi-instagram"></i>
+                  </div>
+
+                  <div class="flex-grow-1 ms-2">
+                    <span class="fs-4">@dflow.teknologi</span>
+                  </div>
+                </div>
+              </a></li>
+
+            </ul>
+            <!-- End List -->
+          </div>
+          <!-- End Hubungi Kami -->
+
+        </div>
+        <!-- End Row -->
+      </div>
+
+      <div class="row align-items-md-center py-4">
+        <div class="col-md mb-3 mb-md-0">
+          <!-- List -->
+          <ul class="list-inline list-px-2 mb-0">
+            <li class="list-inline-item"><a class="link link-dark link-dark-75 fs-4" href="./kebijakan-privasi.html">Kebijakan Privasi</a></li>
+            <li class="list-inline-item"><a class="link link-dark link-dark-75 fs-4" href="./ketentuan-penggunaan.html">Ketentuan Penggunaan</a></li>
+          </ul>
+          <!-- End List -->
+        </div>
+        <!-- End Col -->
+
+        <div class="col-md-auto">
+          <p class="text-dark-70 mb-0">© PT. Dinamik Flow Teknnologi. 2022</p>
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Row -->
+    </div>
+  </footer>
+  <!-- ========== END FOOTER ========== -->
+
+  <!-- ========== SECONDARY CONTENTS ========== -->
+  <!-- Go To -->
+  <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;"
+     data-hs-go-to-options='{
+       "offsetTop": 700,
+       "position": {
+         "init": {
+           "right": "2rem"
+         },
+         "show": {
+           "bottom": "2rem"
+         },
+         "hide": {
+           "bottom": "-2rem"
+         }
+       }
+     }'>
+    <i class="bi-chevron-up"></i>
+  </a>
+  <!-- ========== END SECONDARY CONTENTS ========== -->
+
+  
+    <!-- JS Global Compulsory  -->
+    <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <script src="./assets/vendor/hs-header/dist/hs-header.min.js"></script>
+    <script src="./assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
+    <script src="./assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
+    <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/vendor/hs-sticky-block/dist/hs-sticky-block.min.js"></script>
+    <script src="./assets/vendor/hs-scrollspy/dist/hs-scrollspy.min.js"></script>
+
+    <!-- JS Unify -->
+    <script src="./assets/js/theme.min.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+      (function() {
+        
+          // INITIALIZATION OF NAVBAR
+          // =======================================================
+          new HSHeader('#header').init()
+
+
+          // INITIALIZATION OF MEGA MENU
+          // =======================================================
+          const megaMenu = new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+              position: 'left'
+          }
+          })
+
+
+          // INITIALIZATION OF GO TO
+          // =======================================================
+          new HSGoTo('.js-go-to')
+
+
+      }) ()
+  </script>
+</body>
+</html>
